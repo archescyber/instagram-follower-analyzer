@@ -1,56 +1,56 @@
-# Instagram Brute Force Tool
+# Instagram Follower Analyzer
 
 ## Description
 
-This project is a Python-based brute force tool designed to work with Instagram's API. The tool works by sending requests and is compatible with mobile devices. Users must have their own proxy service to use this tool effectively. Additionally, users can attempt to crack passwords using wordlists.
+This project is a Python-based tool that helps you find users on Instagram whom you follow, but they do not follow you back. It utilizes Instagram's API to fetch and compare your followers and following lists.
 
 ## Features
 
-- Works with Instagram's API for brute force attacks.
-- Compatible with mobile devices.
-- Requires users to have their own proxy service.
-- Allows users to attempt to crack passwords using wordlists.
-
-- Easy to use and install.
+- Fetches your list of followers and following on Instagram.
+- Compares the two lists to identify users who don't follow you back.
+- User-friendly output displaying the results.
+- Handles Instagram API limits and provides guidance on managing API calls effectively.
 
 ## Installation
 
 1. Clone the repository:
 
-```
-git clone https://github.com/archescyber/cyber-bruter
-```
+   ```bash
+   git clone https://github.com/archescyber/instacheck-followback
+   ```
 
-2. Install the required dependencies:
+2. Install the required dependencies.
 
-```
-pip install -r requirements.txt
-```
-
-3. Install the proxy service.  Make sure you have a valid proxy server to route your requests through.
+3. Set up your Instagram API credentials:
+   - Create an Instagram developer account and register your app.
+   - Get your **Access Token** and **Client ID**.
+   - Store these credentials in a `.env` file in the root directory.
 
 ## Usage
 
-1. Configure the tool:
-- Edit the configuration file to include your proxy details.
-- Enter the target username and the wordlist you want to use for password attempts.
+1. Run the script:
 
-2. Run the script:
+   ```bash
+   python main.py
+   ```
 
-```
-python main.py
-```
+2. Enter your Instagram username when prompted.
 
-3. Monitor the output for progress and results as the tool attempts to crack the password.
+3. The script will output a list of users that you follow but do not follow you back.
 
-## Important Notes
+## API Rate Limits
 
-- **Proxy Requirement**: Users must have their own proxy service. The tool will not work without a valid proxy.
+Instagram API has certain rate limits you need to be aware of:
 
-- **Wordlist Usage**: Users can specify a wordlist to attempt to crack the password. Make sure your wordlist is formatted correctly for best performance.
+- **Basic Instagram API Rate Limits:**
+  - **200 GET requests per hour** for user-related data (such as followers, following).
 
-- **Ethical Considerations**: Use this tool responsibly and only on accounts you own or have explicit permission to test. Unauthorized access to accounts is illegal and unethical.
-- **API Rate Limits**: Use a good proxy service to avoid temporary access suspensions. You will need this to bypass API rate limits.
+  Be cautious with frequent API requests as exceeding the limit can result in temporary suspension of API access. It’s recommended to add delays between API calls or use batch requests to stay within the limit.
+
+- If your app frequently exceeds rate limits, you may consider:
+  - Caching API responses locally.
+  - Spreading requests over a longer time frame.
+  - Upgrading your API access if necessary.
 
 ## Contribution
 
