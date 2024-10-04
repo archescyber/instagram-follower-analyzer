@@ -44,7 +44,7 @@ Store these credentials in a .env file in the root directory.
 3. The script will output a list of users that you follow but do not follow you back.
 
 
-API Rate Limits
+`• API Rate Limits:`
 
 Instagram API has certain rate limits you need to be aware of:
 
