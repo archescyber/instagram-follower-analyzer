@@ -20,7 +20,7 @@ Handles Instagram API limits and provides guidance on managing API calls effecti
 ```$ git clone https://github.com/archescyber/instacheck-followback```
 
 
-2. Install the required dependencies.
+```2. Install the required dependencies.```
 
 
 3. Set up your Instagram API credentials:
@@ -44,7 +44,7 @@ Store these credentials in a .env file in the root directory.
 3. The script will output a list of users that you follow but do not follow you back.
 
 
-`• API Rate Limits:`
+• API Rate Limits:
 
 Instagram API has certain rate limits you need to be aware of:
 
