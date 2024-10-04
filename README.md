@@ -15,7 +15,7 @@ Handles Instagram API limits and provides guidance on managing API calls effecti
 
 *• Installation:*
 
-1. Clone the repository:
+```1. Clone the repository:```
 
 ```$ git clone https://github.com/archescyber/instacheck-followback```
 
@@ -33,7 +33,7 @@ Store these credentials in a .env file in the root directory.
 
 *• Usage:*
 
-1. Run the script:
+```1. Run the script:```
 
 ```$ python main.py```
 
@@ -52,7 +52,6 @@ Basic Instagram API Rate Limits:
 
 200 GET requests per hour for user-related data (such as followers, following).
 
-
 Be cautious with frequent API requests as exceeding the limit can result in temporary suspension of API access. It’s recommended to add delays between API calls or use batch requests to stay within the limit.
 
 If your app frequently exceeds rate limits, you may consider:
@@ -63,8 +62,6 @@ Spreading requests over a longer time frame.
 
 Upgrading your API access if necessary.
 
-
-
-*Contribution:*
+*• Contribution:*
 
 Feel free to contribute to the project by submitting issues or pull requests. All contributions are welcome!
