@@ -19,7 +19,7 @@ Installation
 
 1. Clone the repository:
 
-git clone https://github.com/archescyber/instacheck-followback
+```git clone https://github.com/archescyber/instacheck-followback```
 
 
 2. Install the required dependencies.
@@ -37,7 +37,7 @@ Usage
 
 1. Run the script:
 
-python main.py
+```python main.py```
 
 
 2. Enter your Instagram username when prompted.
