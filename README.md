@@ -22,8 +22,7 @@ This project is a Python-based brute force tool designed to work with Instagram'
 
 2. Install the required dependencies:
 
-```pip install -r requirements.txt
-```
+```pip install -r requirements.txt```
 
 3. Install the proxy service.  Make sure you have a valid proxy server to route your requests through.
 
