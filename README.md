@@ -1,10 +1,8 @@
 **Instagram Follower Analyzer:**
 
-Description
-
 This project is a Python-based tool that helps you find users on Instagram whom you follow, but they do not follow you back. It utilizes Instagram's API to fetch and compare your followers and following lists.
 
-Features
+*• Features:*
 
 Fetches your list of followers and following on Instagram.
 
@@ -15,11 +13,11 @@ User-friendly output displaying the results.
 Handles Instagram API limits and provides guidance on managing API calls effectively.
 
 
-Installation
+*• Installation:*
 
 1. Clone the repository:
 
-```git clone https://github.com/archescyber/instacheck-followback```
+```$ git clone https://github.com/archescyber/instacheck-followback```
 
 
 2. Install the required dependencies.
@@ -33,11 +31,11 @@ Get your Access Token and Client ID.
 
 Store these credentials in a .env file in the root directory.
 
-Usage
+*• Usage:*
 
 1. Run the script:
 
-```python main.py```
+```$ python main.py```
 
 
 2. Enter your Instagram username when prompted.
@@ -67,6 +65,6 @@ Upgrading your API access if necessary.
 
 
 
-Contribution
+*Contribution:*
 
 Feel free to contribute to the project by submitting issues or pull requests. All contributions are welcome!
